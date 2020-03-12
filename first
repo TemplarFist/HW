@@ -1,0 +1,8 @@
+#!/bin/bash
+touch t1.txt
+echo "some text number 1" > t1.txt
+echo "some other text  number 2" > t2.txt
+cat t1.txt t2.txt > result.txt
+cat result.txt
+
+
